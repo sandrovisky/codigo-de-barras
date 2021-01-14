@@ -3,10 +3,24 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+function imprimir(){
+    
+    var texto = document.getElementById("texto").value
 
+    var printWindow = window.open("", "Print Window","height=400,width=600");
+    printWindow.document.write("<html><head>");
+    printWindow.document.write("</head><body ><p><h1 style='text-align: center;' >Impressão do Sandrovisky</h1><br/><br/><br/><br/><br/><p style='text-align: center;'></p>");
+    printWindow.document.write(`<img  style = 'display: block;margin-left: auto;margin-right: auto;width: 50%;' src='https://www.cognex.com/api/Sitecore/Barcode/Get?data=${texto}&code=BCL_CODE128&width=600&imageType=PNG&foreColor=%23000000&backColor=%23FFFFFF&rotation=RotateNoneFlipNone'  width='600' />`);
+    printWindow.document.write("</body></html>");
+    printWindow.document.close(); 
+    printWindow.print();
+    
+    
+    
+}
 (function() {
 
-	"use strict";
+	"use strict"; 
 
 	var	$body = document.querySelector('body');
 
@@ -159,7 +173,7 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', 'Thank you!');
+								$message._show('success','Sucesso!' );
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
 						}, 750);
