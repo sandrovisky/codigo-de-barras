@@ -8,7 +8,7 @@ function imprimir(){
     
     var texto = document.getElementById("texto").value
 
-    var printWindow = window.open("", "Print Window","height=400,width=600");
+    var printWindow = window.open("", "Print Window","height=600,width=600");
     printWindow.document.write("<html><head>");
     printWindow.document.write("</head><body ><p><h1 style='text-align: center;' >Impressão do Sandrovisky</h1><br/><br/><br/><br/><br/><p style='text-align: center;'></p>");
     printWindow.document.write(`<img  style = 'display: block;margin-left: auto;margin-right: auto;width: 50%;' src='https://www.cognex.com/api/Sitecore/Barcode/Get?data=${texto}&code=BCL_CODE128&width=800&imageType=PNG&foreColor=%23000000&backColor=%23FFFFFF&rotation=RotateNoneFlipNone'  width='1000' />`);
