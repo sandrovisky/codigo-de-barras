@@ -10,14 +10,7 @@
 
 
 <h4 align="center"> 
-	🚧   🚀 Ainda nao terminado...  🚧
+	🚧   🚀 Em desenvolvimento  🚧
 </h4>
-
-
-### :memo: Licença
-
-Esse projeto está ssem licensa
-
----
 
 <p align="center">Feito com ❤️ por <strong>Sandrovisky :wave: </p>
