@@ -1,7 +1,23 @@
-# codigo-de-barras
-Aplicativo que transforma texto digitado em codigo de barra code 128 e abre janela para impressão
-Faltando implementação de escolha para padrao EAN13 e DUN14 (ou qualquer outro tipo de codigo disponibilizado pelo server) e um login.
+<h4 align="center">
+ <b>Codigo de Barras</b> 🦸‍♂️
+</h4>
+
+<br>
+
+### :muscle: Projeto
+
+<b>Codigo de Barras</b> é um projeto pessoal usado para aprender como funciona impressao atraves do html e javascript
 
 
+<h4 align="center"> 
+	🚧   🚀 Ainda nao terminado...  🚧
+</h4>
 
- https://sandrovisky.github.io/codigo-de-barras
+
+### :memo: Licença
+
+Esse projeto está ssem licensa
+
+---
+
+<p align="center">Feito com ❤️ por <strong>Sandrovisky :wave: </p>
