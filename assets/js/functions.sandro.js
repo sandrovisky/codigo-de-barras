@@ -13,6 +13,9 @@ function imprimir(){
 
         for ( let i = 0; i < quantidade; i++){
             
+            if (i === 5) {
+                printWindow.document.write("<br/>") 
+            }
             printWindow.document.write("<div style = 'width: 10cm;height:5cm;border-style: solid; border-width: 1px;'><h1 style='text-align: center;'>Impressão do Sandrovisky</h1><br/>");
             printWindow.document.write(`<img  style = 'display: block;margin-left: auto;margin-right: auto;width: 50%;' src='https://www.cognex.com/api/Sitecore/Barcode/Get?data=${texto}&code=BCL_CODE128&width=800&imageType=PNG&foreColor=%23000000&backColor=%23FFFFFF&rotation=RotateNoneFlipNone'  width='1000' /></div>`);
         }
