@@ -16,17 +16,18 @@
 
         <div id = "islogged" style = "display: none" >
 
-            <!-- Header -->
+            
 			<header id="header">
 				<h1>Bora lá</h1>
 				<p>Digite o texto que será convertido para codigo de barra</p>
 			</header>
 
-		    <!-- Signup Form -->
+		    
             <form id="signup-form" method="post" action="#" >
+
                 <input type="text" name="texto" id="texto" placeholder="" />
-                <input type="number" name="qua" id="qua" style="width: 135px;"  placeholder="Quantidade" max="10"/>
-                <input type="submit" onclick="imprimir()" value="Imprimir"/>
+                <input type="number" name="qua" id="quantidadeEtiqueta" style="width: 170px;"  placeholder="Quantidade" max="10"/>
+                <input type="button" onclick="imprimir()"  value="Imprimir"/>
                 
             </form>
 

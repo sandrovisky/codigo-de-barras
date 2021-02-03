@@ -3,6 +3,8 @@ function imprimir(){
     const texto = document.getElementById("texto").value
     const quantidade = document.getElementById("quantidadeEtiqueta").value
 
+    console.log("mae do leandro é minha")
+
     if (quantidade > 10) {
         alert("Maximo de impressões: 10")
     } else {
