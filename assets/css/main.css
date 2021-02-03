@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+header, hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -850,7 +850,7 @@ button,
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
   opacity: 0.5;
-  position: absolute; }
+  }
   #footer .icons {
     margin: 0 0 0.5em 0; }
   #footer .copyright {
